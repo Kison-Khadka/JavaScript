@@ -1,3 +1,3 @@
 
-// console.log() is a function to print your value in console.
+// console.log() is a function used to print values to the console.
 console.log("Kison")

@@ -1,4 +1,7 @@
-// Array
+// singleton
+// Object.create
+
+// object literals
 
 const mysymbol = Symbol("key1")
 

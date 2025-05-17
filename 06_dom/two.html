@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background: #212121;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <div class="day">Sunday</div>
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+    </div>
+    <script>
+        const myContainer = document.querySelector(".container")
+        // console.log(myContainer);
+        // console.log(myContainer.children);
+        // console.log(myContainer.children[1].innerHTML); 
+        for (let i = 0; i < myContainer.children.length; i++) {
+            console.log(myContainer.children[i].innerHTML);
+        }
+    </script>
+  </body>
+</html>
